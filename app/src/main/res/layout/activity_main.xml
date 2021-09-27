@@ -12,7 +12,7 @@
         android:id="@+id/imageView"
         android:layout_width="309dp"
         android:layout_height="229dp"
-        android:contentDescription="ClassroomLogo"
+        android:contentDescription="@string/classroomlogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
