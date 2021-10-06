@@ -26,10 +26,6 @@ public class MainActivity extends AppCompatActivity {
 }
 
 //linear algebra 5       30mark MCQ 45min | 20marks descriptive 30min
-//
-//
-//
-
 
 //
 //    Create an application that has screens
