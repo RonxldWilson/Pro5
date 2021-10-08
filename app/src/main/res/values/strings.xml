@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Pro5</string>
     <string name="classroomlogo">ClassroomLogo</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="welcome">Welcome</string>
+    <string name="login_to_access_your_account">Login to access your account</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_in">Sign in</string>
+    <string name="or">or</string>
 </resources>
