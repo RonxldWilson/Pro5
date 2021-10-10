@@ -1,7 +1,6 @@
 package com.example.pro5;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -21,5 +20,9 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
+//    public void signupMethod(){
+//
+//    }
 }
