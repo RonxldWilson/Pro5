@@ -6,11 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 import com.google.android.material.badge.BadgeUtils;
 
 public class MainActivity3 extends AppCompatActivity {
     Button button;
+    EditText Name;
+    EditText Age;
+    EditText cia1, cia2, cia3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +25,7 @@ public class MainActivity3 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity3.this, MainActivity4.class);
                 startActivity(intent);
+
             }
         });
     }
