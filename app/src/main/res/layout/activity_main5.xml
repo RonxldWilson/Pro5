@@ -43,6 +43,7 @@
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
                 android:padding="4dp"
                 android:textColor="#000000"
                 android:textSize="20sp" />
@@ -60,6 +61,7 @@
                 android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
                 android:padding="4dp"
                 android:textColor="#000000"
                 android:textSize="20sp" />
@@ -77,6 +79,7 @@
                 android:id="@+id/textView25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
                 android:padding="4dp"
                 android:textColor="#000000"
                 android:textSize="20sp" />
@@ -94,6 +97,7 @@
                 android:id="@+id/textView29"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
                 android:padding="4dp"
                 android:textColor="#000000"
                 android:textSize="20sp" />
@@ -103,7 +107,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="4dp"
-                android:text="Grade"
+                android:text="Elective"
                 android:textColor="#000000"
                 android:textSize="20sp" />
 
@@ -111,6 +115,7 @@
                 android:id="@+id/textView31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
                 android:padding="4dp"
                 android:textColor="#000000"
                 android:textSize="20sp" />
@@ -130,7 +135,8 @@
                 android:layout_height="wrap_content"
                 android:padding="4dp"
                 android:textColor="#000000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-thin" />
 
         </LinearLayout>
 

@@ -13,6 +13,7 @@ public class MainActivity3 extends AppCompatActivity {
     public static final String EXTRA_NAME = "com.example.pro5.extra.NAME";
     public static final String EXTRA_AGE = "com.example.pro5.extra.AGE";
     public static final String EXTRA_TOTAL = "com.example.pro5.extra.TOTAL";
+    public static final String EXTRA_GPA = "com.example.pro5.extra.GPA";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,14 +30,16 @@ public class MainActivity3 extends AppCompatActivity {
 
         button.setOnClickListener(view -> {
             int total = totalCiaMarks(cia1, cia2, cia3);
+            float gpaA = gpa(cia1,cia2,cia3);
             String ageText = age.getText().toString();
             String nameText = name.getText().toString();
             String totalText = Integer.toString(total);
-
+            String gpa = Float.toString(gpaA);
             Intent intent = new Intent(this, MainActivity4.class);
             intent.putExtra(EXTRA_NAME,nameText);
             intent.putExtra(EXTRA_AGE,ageText);
             intent.putExtra(EXTRA_TOTAL,totalText);
+            intent.putExtra(EXTRA_GPA,gpa);
             startActivity(intent);
         });
     }
@@ -45,5 +48,11 @@ public class MainActivity3 extends AppCompatActivity {
         int cia02 = Integer.parseInt(cia2.getText().toString());
         int cia03 = Integer.parseInt(cia3.getText().toString());
         return (cia01 + cia02 + cia03);
+    }
+    private float gpa(EditText cia1,EditText cia2,EditText cia3){
+        float cia1grade=(float) Integer.parseInt(cia1.getText().toString());
+        float cia2grade=(float) Integer.parseInt(cia2.getText().toString());
+        float cia3grade=(float) Integer.parseInt(cia3.getText().toString());
+        return ((cia1grade+cia2grade+cia3grade)/100);
     }
 }
