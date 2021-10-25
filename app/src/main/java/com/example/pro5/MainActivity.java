@@ -24,15 +24,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
-
-//linear algebra 5       30mark MCQ 45min | 20marks descriptive 30min
-
 //
 //    Create an application that has screens
 //
 //        screen 1: Login module - on successful login display next screen (screen 2)
 //        screen 2:  fill the form - users will fill the form, collect data such as Name, age, CIA 1, CIA 2, CIA 3 marks
-//        screen 3: gets the data from screen 2 and calculate the total marks, additional option to add co-curricular,
+//        screen 3: gets the data from screen 2 and calculate the total marks,
+//        additional option to add co-curricular,
 //        Open elective credits. should be given
 //        screen 4: Dashboard displays result in a neat format, Name, Class, Email, Marks, Grade, GPA ...etc
 //

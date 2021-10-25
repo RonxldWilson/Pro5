@@ -10,6 +10,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:background="#66BB6A"
         android:orientation="vertical"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -17,107 +18,127 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/textView2"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Details Form"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="24sp" />
+            android:background="@drawable/rectangle"
+            android:orientation="vertical"
+            android:padding="10dp">
 
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Full Name"
-            android:textColor="#000000"
-            android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="10dp"
+                android:text="Details Form"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name"
-            android:textColor="#000000" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:padding="10dp"
+                android:text="Full Name"
+                android:textColor="#000000"
+                android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Age"
-            android:textColor="#000000"
-            android:textSize="20sp" />
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:inputType="textPersonName"
+                android:text="Name"
+                android:textColor="#000000" />
 
-        <EditText
-            android:id="@+id/editTextNumber"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:autoText="false"
-            android:ems="10"
-            android:inputType="number"
-            android:textColor="#000000" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:padding="10dp"
+                android:text="Age"
+                android:textColor="#000000"
+                android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="CIA 1 Marks "
-            android:textColor="#000000"
-            android:textSize="20sp" />
+            <EditText
+                android:id="@+id/editTextNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:inputType="number"
+                android:textColor="#000000" />
 
-        <EditText
-            android:id="@+id/editTextNumber2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="number"
-            android:textColor="#000000" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:padding="10dp"
+                android:text="CIA 1 Marks "
+                android:textColor="#000000"
+                android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="CIA 2 Marks"
-            android:textColor="#000000"
-            android:textSize="20sp" />
+            <EditText
+                android:id="@+id/editTextNumber2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:inputType="number"
+                android:textColor="#000000" />
 
-        <EditText
-            android:id="@+id/editTextNumber3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="number"
-            android:textColor="#000000" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:padding="10dp"
+                android:text="CIA 2 Marks"
+                android:textColor="#000000"
+                android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="CIA 3 Marks"
-            android:textColor="#000000"
-            android:textSize="20sp" />
+            <EditText
+                android:id="@+id/editTextNumber3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:inputType="number"
+                android:textColor="#000000" />
 
-        <EditText
-            android:id="@+id/editTextNumber4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="number"
-            android:textColor="#000000" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:padding="10dp"
+                android:text="CIA 3 Marks"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextNumber4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:inputType="number"
+                android:textColor="#000000" />
+        </LinearLayout>
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="5dp"
             android:text="Submit" />
     </LinearLayout>
 

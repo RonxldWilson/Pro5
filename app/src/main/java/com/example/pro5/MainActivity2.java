@@ -16,6 +16,7 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         button2 = (Button)findViewById(R.id.button2); 
         button5 = (Button) findViewById(R.id.button5);
+
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -32,7 +33,4 @@ public class MainActivity2 extends AppCompatActivity {
         });
 
     }
-//    public void signupMethod(){
-//
-//    }
 }
