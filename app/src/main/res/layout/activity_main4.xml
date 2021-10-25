@@ -15,7 +15,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="303dp"
+            android:layout_height="474dp"
             android:background="@drawable/rectangle"
             android:orientation="vertical"
             android:padding="20dp">
@@ -27,69 +27,89 @@
                 android:fontFamily="@font/roboto_bold"
                 android:text="Summary "
                 android:textColor="#000000"
-                android:textSize="24sp" />
+                android:textSize="34sp" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="monospace"
                 android:padding="10dp"
                 android:text="Name"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="monospace"
                 android:padding="10dp"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="monospace"
                 android:padding="10dp"
                 android:text="Age"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="monospace"
                 android:padding="10dp"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="monospace"
                 android:padding="10dp"
                 android:text="Total "
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textViewTotal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="monospace"
                 android:padding="10dp"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:padding="10dp"
+                android:text="Elective Marks"
+                android:textColor="#000000"
+                android:textSize="20sp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName3"
+                android:id="@+id/editTextNumber5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:padding="10dp"
-                android:text="Name"
+                android:inputType="number"
                 android:textColor="#000000" />
+
         </LinearLayout>
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="216dp"
+            android:layout_width="match_parent"
             android:layout_height="141dp"
-            android:padding="10dp"
             android:text="Button" />
 
     </LinearLayout>
